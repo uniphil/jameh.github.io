@@ -12,7 +12,7 @@ a {
 
 #blog-title {
   font-family: "Open Sans", sans-serif;
-  font-size: 4em;
+  font-size: 4rem;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
   margin: 0 auto;
   width: 880px; }
@@ -32,11 +32,11 @@ a {
 .paper {
   background: #fff;
   width: 880px;
-  margin: 1em auto;
-  padding: 2em 4em;
+  margin: 1rem auto;
+  padding: 2rem 4rem;
   border-top: 1px solid rgba(0, 0, 0, 0);
   border-bottom: 1px solid rgba(0, 0, 0, 0);
-  box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
   text-align: left;
   border-radius: 3px;
   line-height: 18pt; }
@@ -57,11 +57,11 @@ p > code {
   border: 0;
   border-radius: 3px;
   background: #272822 url("../img/darkdenim3.png") fixed;
-  box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.3) inset;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3) inset;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   overflow: auto;
   width: 752px; }
   .highlight > pre {
@@ -70,33 +70,8 @@ p > code {
     white-space: pre;
     margin: 0; }
 
-/* Code table (line-numbered code block)
-   .codehilite styling still applies to code */
-.codehilitetable {
-  margin: 0em;
-  position: relative;
-  left: -2.5em; }
-  .codehilitetable .linenos {
-    border-right: 0px solid #3c3c3c;
-    height: auto;
-    color: #666666;
-    width: 2.5em;
-    text-align: center;
-    /*background-color: rgb(255, 255, 255);*/
-    /*box-shadow: 3px 0px 3px -3px rgba(0, 0, 0, 0.8);*/ }
-    .codehilitetable .linenos > .linenodiv {
-      padding-top: 0.5em;
-      padding-bottom: 0.5em; }
-      .codehilitetable .linenos > .linenodiv > pre {
-        font-family: "DejaVu Sans Mono";
-        font-size: 11pt;
-        white-space: pre;
-        margin: 0; }
-  .codehilitetable .code {
-    padding: 0; }
-
 .paper,
-.codehilitetable,
+#nav-bar,
 .highlight,
 .linenos {
   -webkit-box-sizing: border-box;
@@ -104,3 +79,18 @@ p > code {
   -o-box-sizing: border-box;
   box-sizing: border-box;
   display: block; }
+
+#nav-bar {
+  background: #666;
+  width: 880px;
+  margin: 0.5em auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 3px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3); }
+  #nav-bar > a {
+    color: #333; }
+    #nav-bar > a :hover {
+      color: #555; }

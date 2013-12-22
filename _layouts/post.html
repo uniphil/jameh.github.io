@@ -1,0 +1,7 @@
+{% include head.html %}
+<div class=paper>
+    <div class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></div>
+    <div class="date">{{ post.date | date: "%A, %B %d, %Y" }}</div>
+    {{ content | safe }}
+</div>
+{% include foot.html %}

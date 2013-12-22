@@ -1,0 +1,13 @@
+{% include head.html %}
+<ul id=home-post-list>
+    {% for post in site.posts %}
+        <div class=paper>
+            <li>
+                <div>{{ post.date | date: "%A, %B %d, %Y" }}</div>
+                <p>{{ post.excerpt }}</p>
+                <div><a href="{{ post.url }}">see more...</a></div>
+            </li>
+        </div>
+    {% endfor %}
+</ul>
+{% include foot.html %}

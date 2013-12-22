@@ -1,0 +1,7 @@
+safe: true
+lsi: false
+pygments: true
+source: /home/jamie/code/jameh.github.io
+markdown: redcarpet
+redcarpet:
+    extensions: [fenced_code_blocks, autolink, quote, footnotes, tables, no_intra_emphasis, disable_indented_code_blocks]

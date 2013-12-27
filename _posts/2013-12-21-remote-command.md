@@ -3,7 +3,6 @@ layout: post
 title: Program to send commands to ttys remotely
 ---
 #Program to send commands to ttys remotely
-
 (over ssh)
 
 ##Motivation:

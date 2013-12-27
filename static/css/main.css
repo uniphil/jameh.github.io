@@ -94,3 +94,8 @@ p > code {
     color: #333; }
     #nav-bar > a :hover {
       color: #555; }
+
+.nav-button {
+  padding-right: 13px; }
+  .nav-button :hover {
+    color: #4183c4; }

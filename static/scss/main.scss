@@ -178,3 +178,10 @@ p > code {
         }
     }
 }
+
+.nav-button {
+    padding-right: 13px;
+    :hover {
+        color: $link-colour;
+    }
+}

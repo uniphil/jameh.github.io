@@ -1,3 +1,6 @@
+name: biscuitsandtea
+description: A weblog about Linux etc.
+url: http://jameh.github.io/
 safe: true
 lsi: false
 pygments: true
